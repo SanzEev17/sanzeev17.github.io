@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjib Subedi</title>
+
+    <!-- fontawesome kit -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="https://kit.fontawesome.com/75062e5221.js" crossorigin="anonymous"></script>
+
+    <!-- css files and fonts -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wholesite">
+        <!-- Navigation Section -->
+        <div id="navigation" class="hidden">
+            <div id="profile">
+                <img src="img/small-profile.jpeg" alt="profile" id="myimage">
+                <div class="name">Sanjib Subedi</div>
+                <div>Programmer</div>
+            </div>
+            <nav id="navbar-me">
+                <ul>
+                    <li class="activeLi"><a href="#home" class="home navbtn active">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li><a href="#aboutme" class="aboutme navbtn">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li><a href="#myskills" class="myskills navbtn">
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li><a href="#myproject" class="myproject navbtn">
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li><a href="#contactme" class="contactme navbtn">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div class="mob-container"> -->
+        <div class="mob-menu">
+            <span>Menu</span>
+        </div>
+
+
+
+        <!-- Container Section  -->
+        <div class="container-me">
+
+            <!-- Home Section  -->
+            <section id="home">
+                <div class="wrapper">
+                    <div class="myname">
+                        <h1><span>Sanjib</span> Subedi</h1>
+                        <h4>I'm a &ZeroWidthSpace;<span id="typing"></span></h4>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- About Me Section  -->
+            <section id="aboutme" class="pagesection">
+                <div class="wrapper">
+                    <div class="topic">
+                        <h2>About Me</h2>
+                    </div>
+                    <div id="details">
+                        <!-- <div id="profileimage"> -->
+                        <img id="smallimage" src="img/small-profile.jpeg" alt="Profile">
+                        <img id="largeimage" src="img/profile.jpeg" alt="Profile">
+                        <!-- </div> -->
+                        <div id="info">
+                            <!-- <h5>Who am I?</h5> -->
+                            <h2>I'm Sanjib Subedi, a Web Developer and Programmer</h2>
+                            <p>Hey! How You Doin'? I'm a student from Nepal studying BCA with knowledge of Web
+                                Development and
+                                Python
+                                Programming. Beside Web Development, I've interest in Data Science so I'm persuing my
+                                career in that sector.
+                            </p>
+                            <div id="datatable">
+                                <div class="datas">
+                                    <span class="">Name: </span>
+                                    <span class="">Sanjib Subedi</span>
+                                </div>
+                                <div class="datas">
+                                    <span class="">Email: </span>
+                                    <span class="">
+                                        <a
+                                            href="mailto:sanjibsubedi2001@gmail.com">sanjibsubedi2001@gmail.com</a></span>
+                                </div>
+                                <div class="datas">
+                                    <span class="">Age: </span>
+                                    <span id="age"></span>
+                                </div>
+                                <div class="datas">
+                                    <span class="">Address: </span>
+                                    <span class="">Tilottama-9,Rupandehi,Nepal</span>
+                                </div>
+                            </div>
+                            <button class="btn"><span><i class="fas fa-download"></i></span>
+                                <a href="files/resume.pdf" class="text-decoration-none" download="resume.pdf">Download
+                                    CV</a>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+
+
+            <!-- Skills Section  -->
+            <section id="myskills" class="pagesection">
+                <div class="wrapper">
+                    <div class="topic">
+                        <h2>My Skills</h2>
+                    </div>
+                    <div id="skills">
+                        <div id="progressbar">
+                            <div class="skill">
+                                <div class="outer" id="htmlout">
+                                    <div class="inner">
+                                        <div id="html" class="skilltext"></div>
+                                    </div>
+                                </div>
+                                <div class="skilltext">HTML</div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer" id="cssout">
+                                    <div class="inner">
+                                        <div id="css" class="skilltext"></div>
+                                    </div>
+                                </div>
+                                <div class="skilltext">CSS</div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer" id="jsout">
+                                    <div class="inner">
+                                        <div id="js" class="skilltext"></div>
+                                    </div>
+                                </div>
+                                <div class="skilltext">JavaScript</div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer" id="pyout">
+                                    <div class="inner">
+                                        <div id="python" class="skilltext"></div>
+                                    </div>
+                                </div>
+                                <div class="skilltext">Python</div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer" id="phpout">
+                                    <div class="inner">
+                                        <div id="php" class="skilltext"></div>
+                                    </div>
+                                </div>
+                                <div class="skilltext">PHP</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Portfolio Section  -->
+            <section id="myproject" class="pagesection">
+                <div class="topic mb-5">
+                    <h2>My Projects</h2>
+                </div>
+                <div class="container-lg ps-0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="w-100 h-100 img-thumbnail" src="img/ems.jpg" alt="portfolio item">
+                                <h3 class="text-capitalize fs-5 my-2">Employee Management System in VB.NET</h3>
+                                <p class="mb-4"><a class="text-warning text-decoration-none"
+                                        href="https://github.com/SanzEev17/Project" target="_blank">
+                                        Code
+                                    </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Me Section  -->
+            <section id="contactme" class="pagesection">
+                <div class="wrapper">
+                    <div class="topic">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <form id="contactbox" action="/#contactme" onsubmit="sendMail()" method="dialog">
+                        <div id="inputdata">
+                            <div id="contactname" class="shortbox">
+                                <input type="text" placeholder="Name" id="name" required>
+                            </div>
+                            <div id="contactemail" class="shortbox">
+                                <input type="email" placeholder="E-mail" id="email" required>
+                            </div>
+                            <div id="contactaddress" class="shortbox">
+                                <input type="text" placeholder="Address" id="address" required>
+                            </div>
+                            <div id="contactnum" class="shortbox">
+                                <input type="text" placeholder="Phone Number" id="phone" required>
+                            </div>
+                            <textarea id="comment" class="longbox" placeholder="Message" name="message" required></textarea>
+                        </div>
+                        <button class="btn"><span><i class="fab fa-telegram-plane"></i></i></span>
+                            <a>Send Message</a>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+
+            <!-- Footer Section -->
+            <footer>
+                <div class="wrapper">
+                    <div id="contact-info">
+                        <div class="forward">
+                            <i class="fa fa-map" aria-hidden="true"></i>
+                            <a href="">Tilottama-9,Rupandehi,Nepal</a>
+                        </div>
+                        <div class="forward">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+9779867289664">+977-9867289664</a>
+                        </div>
+                        <div class="forward">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:sanjibsubedi2001@gmail.com">sanjibsubedi2001@gmail.com</a>
+                        </div>
+                    </div>
+                    <div id="social">
+                        <div id="socialmedia">
+                            <ul>
+                                <li><a href="https://www.facebook.com/SanzEev17" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/sanzeev_17/" target="_blank"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+                                <li><a href="https://www.github.com/SanzEev17" target="_blank"><i
+                                            class="fab fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/sanjib17" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                        <div id="copyright">
+                            &#169; Sanjib Subedi... 2022 All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="contact-me.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("4LDq3ukAI79OfEV3-");
+        })();
+    </script>
+</body>
+
+</html>
