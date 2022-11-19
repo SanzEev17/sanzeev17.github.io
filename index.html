@@ -11,8 +11,6 @@
     <meta name="author" content="sanjib subedi">
 
     <!-- fontawesome kit -->
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <script src="https://kit.fontawesome.com/75062e5221.js" crossorigin="anonymous"></script>
 
     <!-- css files and fonts -->
@@ -39,23 +37,23 @@
             </div>
             <nav id="navbar-me">
                 <ul>
-                    <li class="activeLi"><a href="#home" class="home navbtn active">
+                    <li class="activeLi"><a onclick="scrollSmoothTo('home')" class="home navbtn active">
                             <span>Home</span>
                         </a>
                     </li>
-                    <li><a href="#aboutme" class="aboutme navbtn">
+                    <li><a onclick="scrollSmoothTo('aboutme')" class="aboutme navbtn">
                             <span>About</span>
                         </a>
                     </li>
-                    <li><a href="#myskills" class="myskills navbtn">
+                    <li><a onclick="scrollSmoothTo('myskills')" class="myskills navbtn">
                             <span>Skills</span>
                         </a>
                     </li>
-                    <li><a href="#myproject" class="myproject navbtn">
+                    <li><a onclick="scrollSmoothTo('myproject')" class="myproject navbtn">
                             <span>Projects</span>
                         </a>
                     </li>
-                    <li><a href="#contactme" class="contactme navbtn">
+                    <li><a onclick="scrollSmoothTo('contactme')" class="contactme navbtn">
                             <span>Contact</span>
                         </a>
                     </li>
@@ -269,7 +267,7 @@
                             </ul>
                         </div>
                         <div id="copyright">
-                            &#169; Sanjib Subedi... 2022 All rights reserved
+                            &#169; Sanjib Subedi... <span></span> All rights reserved
                         </div>
                     </div>
                 </div>
@@ -277,7 +275,7 @@
         </div>
     </div>
     <script src="js/script.js"></script>
-    <script src="contact-me.js"></script>
+    <script src="js/contact-me.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">

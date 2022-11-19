@@ -90,6 +90,7 @@ ol,ul{
   list-style: none;
   width: 6rem;
   text-align: center;
+  cursor: pointer;
 }
 .active {
   color: var(--main-color) !important;

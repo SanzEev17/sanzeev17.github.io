@@ -1,15 +1,17 @@
+//Full height
+let viewportHeight = window.innerHeight;
+document.documentElement.style.setProperty('--full-height', viewportHeight+"px");
+
 // Preloader
 var loader = document.querySelector("#preloader");
 var mobMenu = document.querySelector(".mob-menu");
 addEventListener("load", function(){
-  loader.style.display = "none";
   document.body.style.overflow = "unset";
+  loader.style.display = "none";
   mobMenu.style.display = "block";
 })
 
-let viewportHeight = window.innerHeight;
-document.documentElement.style.setProperty('--full-height', viewportHeight+"px");
-
+//Age and Current Year
 var birthDate = new Date(2001, 5, 01);
 var currentDate = new Date();
 var age = currentDate.getFullYear() - birthDate.getFullYear(); 
@@ -20,6 +22,7 @@ if ( month < 0 || month == 0 && day < 0 )
     age--;
 }
 document.querySelector("#age").textContent = age;
+document.querySelector('#copyright span').textContent = currentDate.getFullYear();
 
 
 // Active Navigation
@@ -42,6 +45,10 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+function scrollSmoothTo(elementId) {
+  var element = document.getElementById(elementId);
+  element.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}
 
 
 //Mobile Navigation
