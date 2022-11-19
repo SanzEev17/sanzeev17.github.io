@@ -1,8 +1,10 @@
 // Preloader
 var loader = document.querySelector("#preloader");
+var mobMenu = document.querySelector(".mob-menu");
 addEventListener("load", function(){
   loader.style.display = "none";
   document.body.style.overflow = "unset";
+  mobMenu.style.display = "block";
 })
 
 
