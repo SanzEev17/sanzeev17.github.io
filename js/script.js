@@ -1,3 +1,11 @@
+// Preloader
+var loader = document.querySelector("#preloader");
+addEventListener("load", function(){
+  loader.style.display = "none";
+  document.body.style.overflow = "unset";
+})
+
+
 var birthDate = new Date(2001, 5, 01);
 var currentDate = new Date();
 var age = currentDate.getFullYear() - birthDate.getFullYear(); 

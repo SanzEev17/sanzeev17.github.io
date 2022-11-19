@@ -8,10 +8,6 @@
   --secondary-color: #333;
   --universal-font: "Open Sans", sans-serif;
 }
-ol,ul{
-  margin: 0;
-  padding: 0;
-}
 
 html {
   scroll-behavior: smooth;
@@ -21,6 +17,19 @@ body {
   color: black;
   line-height: 1.9;
   font-size: 00.85rem;
+  overflow: hidden;
+}
+#preloader{
+  background: #000 url('../img/loader.gif') no-repeat center center;
+  background-size: 15%;
+  display: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 111110;
+}
+ol,ul{
+  margin: 0;
+  padding: 0;
 }
 .wholesite {
   display: flex;
