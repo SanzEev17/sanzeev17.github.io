@@ -24,9 +24,9 @@ body {
   background: #000 url('../img/loader.gif') no-repeat center center;
   background-size: 15%;
   display: fixed;
-  height: var(--full-height);
+  height: 100vh;
   width: 100%;
-  z-index: 111110;
+  z-index: 100;
 }
 ol,ul{
   margin: 0;
