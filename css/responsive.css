@@ -56,6 +56,9 @@
   p {
     font-size: 0.85rem;
   }
+  #preloader{
+    background-size: 35%;
+  }
   .container-me {
     width: 100% !important;
   }

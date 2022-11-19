@@ -7,6 +7,8 @@ addEventListener("load", function(){
   mobMenu.style.display = "block";
 })
 
+let viewportHeight = window.innerHeight;
+document.documentElement.style.setProperty('--full-height', viewportHeight+"px");
 
 var birthDate = new Date(2001, 5, 01);
 var currentDate = new Date();

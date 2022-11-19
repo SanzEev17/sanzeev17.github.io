@@ -7,6 +7,7 @@
   --main-color: #78b230;
   --secondary-color: #333;
   --universal-font: "Open Sans", sans-serif;
+  --full-height : ;
 }
 
 html {
@@ -23,7 +24,7 @@ body {
   background: #000 url('../img/loader.gif') no-repeat center center;
   background-size: 15%;
   display: fixed;
-  height: 100vh;
+  height: var(--full-height);
   width: 100%;
   z-index: 111110;
 }
@@ -41,7 +42,7 @@ ol,ul{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: var(--full-height);
   position: fixed;
   left: 0;
   width: 13rem;
@@ -128,7 +129,7 @@ ol,ul{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: var(--full-height);
   color: white;
   background: url("../img/home-bg.jpg");
   background-size: cover;
@@ -140,7 +141,7 @@ ol,ul{
   content: "";
   position: absolute;
   top: 0;
-  height: 100vh;
+  height: var(--full-height);
   width: 100%;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
