@@ -1,7 +1,3 @@
-//Full height
-let viewportHeight = window.innerHeight;
-document.documentElement.style.setProperty('--full-height', viewportHeight+"px");
-
 // Preloader
 var loader = document.querySelector("#preloader");
 var mobMenu = document.querySelector(".mob-menu");
@@ -10,6 +6,10 @@ addEventListener("load", function(){
   loader.style.display = "none";
   mobMenu.style.display = "block";
 })
+
+//Full height
+let viewportHeight = window.innerHeight;
+document.documentElement.style.setProperty('--full-height', viewportHeight+"px");
 
 //Age and Current Year
 var birthDate = new Date(2001, 5, 01);
